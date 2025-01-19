@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{47E7912C-5D75-40B6-89CC-D7FD2C14067E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application", "2. Application", "{D86710C0-B148-4F48-93F6-E4EFE67347D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain", "3. Domain", "{886AB40E-3EB6-488F-8042-6510D9F48706}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infraestructure", "4. Infraestructure", "{BB4E6130-583B-4F1D-8AAD-AFBDB9479C0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Tests", "5. Tests", "{115EBE0B-41FE-4F90-8A9F-55D22A5E7488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.Api", "src\OrderManagement.Api\OrderManagement.Api.csproj", "{2A34F303-E7DD-4A16-B826-9CD86431769C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.Application", "src\OrderManagement.Application\OrderManagement.Application.csproj", "{2F059C88-D0F0-415F-9E48-3460BAD80FB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.Domain", "src\OrderManagement.Domain\OrderManagement.Domain.csproj", "{4DCF31F6-5201-4B22-8505-20A88A12E4AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.Infrastructure", "src\OrderManagement.Infrastructure\OrderManagement.Infrastructure.csproj", "{6C7F22CC-FFD2-4644-BDB0-A6433236879E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.Tests", "tests\OrderManagement.Tests\OrderManagement.Tests.csproj", "{63E5535C-9383-4F42-89F1-30026F2557C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{EADADECF-03E7-4412-8180-0D50574A60F2}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A34F303-E7DD-4A16-B826-9CD86431769C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A34F303-E7DD-4A16-B826-9CD86431769C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A34F303-E7DD-4A16-B826-9CD86431769C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A34F303-E7DD-4A16-B826-9CD86431769C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F059C88-D0F0-415F-9E48-3460BAD80FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F059C88-D0F0-415F-9E48-3460BAD80FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F059C88-D0F0-415F-9E48-3460BAD80FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F059C88-D0F0-415F-9E48-3460BAD80FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCF31F6-5201-4B22-8505-20A88A12E4AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCF31F6-5201-4B22-8505-20A88A12E4AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCF31F6-5201-4B22-8505-20A88A12E4AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCF31F6-5201-4B22-8505-20A88A12E4AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7F22CC-FFD2-4644-BDB0-A6433236879E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7F22CC-FFD2-4644-BDB0-A6433236879E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7F22CC-FFD2-4644-BDB0-A6433236879E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7F22CC-FFD2-4644-BDB0-A6433236879E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E5535C-9383-4F42-89F1-30026F2557C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E5535C-9383-4F42-89F1-30026F2557C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E5535C-9383-4F42-89F1-30026F2557C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E5535C-9383-4F42-89F1-30026F2557C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A34F303-E7DD-4A16-B826-9CD86431769C} = {47E7912C-5D75-40B6-89CC-D7FD2C14067E}
+		{2F059C88-D0F0-415F-9E48-3460BAD80FB0} = {D86710C0-B148-4F48-93F6-E4EFE67347D4}
+		{4DCF31F6-5201-4B22-8505-20A88A12E4AC} = {886AB40E-3EB6-488F-8042-6510D9F48706}
+		{6C7F22CC-FFD2-4644-BDB0-A6433236879E} = {BB4E6130-583B-4F1D-8AAD-AFBDB9479C0D}
+		{63E5535C-9383-4F42-89F1-30026F2557C5} = {115EBE0B-41FE-4F90-8A9F-55D22A5E7488}
+	EndGlobalSection
+EndGlobal

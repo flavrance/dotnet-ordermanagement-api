@@ -1,0 +1,28 @@
+# Estes proprietários serão os proprietários padrão para tudo no repositório
+* @project-admin
+
+# Proprietários da camada de domínio
+/src/OrderManagement.Domain/ @domain-experts
+
+# Proprietários da camada de aplicação
+/src/OrderManagement.Application/ @application-team
+
+# Proprietários da infraestrutura
+/src/OrderManagement.Infrastructure/ @infrastructure-team
+
+# Proprietários da API
+/src/OrderManagement.Api/ @api-team
+
+# Proprietários dos testes
+/tests/ @qa-team
+
+# Proprietários da documentação
+*.md @docs-team
+/docs/ @docs-team
+
+# Proprietários da configuração do Docker
+Dockerfile @devops-team
+docker-compose.yml @devops-team
+
+# Proprietários das configurações do GitHub Actions
+/.github/workflows/ @devops-team 
